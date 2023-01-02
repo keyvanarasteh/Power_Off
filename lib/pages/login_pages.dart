@@ -1,4 +1,5 @@
 import 'package:app001/pages/home.dart';
+import 'package:app001/pages/register_pages.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter/src/widgets/container.dart';
@@ -30,7 +31,7 @@ class _registerState extends State<login_pages> {
                       end: Alignment.bottomCenter,
                       colors: [
                         Color.fromARGB(255, 255, 102, 0),
-                        Color.fromARGB(199, 255, 98, 0)
+                        Color.fromARGB(197, 255, 157, 118)
                       ],
                     )),
                     child: Padding(
@@ -56,7 +57,7 @@ class _registerState extends State<login_pages> {
             alignment: Alignment(0, 0.1),
             child: Container(
               width: size.width * 0.9,
-              height: size.height * 0.6,
+              height: size.height * 0.66,
               child: Card(
                 elevation: 12,
                 child: Padding(
@@ -184,7 +185,7 @@ class _registerState extends State<login_pages> {
                           height: 20,
                         ),
                         Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                          mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             ElevatedButton(
                                 style: ElevatedButton.styleFrom(
@@ -213,7 +214,15 @@ class _registerState extends State<login_pages> {
                                       ],
                                     )
                                   ],
-                                )),
+                                ))
+                          ],
+                        ),
+                        SizedBox(
+                          height: 20,
+                        ),
+                        Row(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
                             Row(
                               mainAxisAlignment: MainAxisAlignment.end,
                               children: [
@@ -233,7 +242,7 @@ class _registerState extends State<login_pages> {
                           ],
                         ),
                         SizedBox(
-                          height: 20,
+                          height: 10,
                         ),
                         Row(
                           mainAxisAlignment: MainAxisAlignment.center,
@@ -247,7 +256,8 @@ class _registerState extends State<login_pages> {
                                   Navigator.push(
                                       context,
                                       MaterialPageRoute(
-                                          builder: (context) => home()));
+                                          builder: (context) =>
+                                              register_pages()));
                                 }),
                                 child: Text(
                                   "Üye Ol",
