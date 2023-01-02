@@ -27,52 +27,54 @@ class Content extends StatelessWidget {
 
   Widget content(String device) {
     if (device == "mobile") {
-      return SingleChildScrollView(
-        scrollDirection: Axis.vertical,
-        child: Column(
-          children: [
-            filtre_widget(),
-            SingleChildScrollView(
-              scrollDirection: Axis.horizontal,
-              child: Container(
-                decoration:
-                    BoxDecoration(border: Border.all(color: Colors.black12)),
-                child: Row(
-                  children: [chip_categories(title: "")],
+      return SafeArea(
+        child: SingleChildScrollView(
+          scrollDirection: Axis.vertical,
+          child: Column(
+            children: [
+              filtre_widget(),
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Container(
+                  decoration:
+                      BoxDecoration(border: Border.all(color: Colors.black12)),
+                  child: Row(
+                    children: [chip_categories(title: "")],
+                  ),
                 ),
               ),
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                homecard5(
-                    title: "Apple İphone 13 Pro Max Black",
-                    description: "128 GB 12 Ay Garantili",
-                    imagesrc: "images/iphone12.png",
-                    fiyat: "35.000 TL"),
-                homecard5(
-                    title: "Apple İphone 13 Pro Max Black",
-                    description: "128 GB 12 Ay Garantili",
-                    imagesrc: "images/iphone14.png",
-                    fiyat: "35.000 TL"),
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                homecard5(
-                    title: "Apple İphone 13 Pro Max Black",
-                    description: "128 GB 12 Ay Garantili",
-                    imagesrc: "images/iphone13.png",
-                    fiyat: "35.000 TL"),
-                homecard5(
-                    title: "Apple İphone 13 Pro Max Black",
-                    description: "128 GB 12 Ay Garantili",
-                    imagesrc: "images/iphone_13.png",
-                    fiyat: "35.000 TL"),
-              ],
-            ),
-          ],
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  homecard5(
+                      title: "Apple İphone 13 Pro Max Black",
+                      description: "128 GB 12 Ay Garantili",
+                      imagesrc: "images/iphone12.png",
+                      fiyat: "35.000 TL"),
+                  homecard5(
+                      title: "Apple İphone 13 Pro Max Black",
+                      description: "128 GB 12 Ay Garantili",
+                      imagesrc: "images/iphone14.png",
+                      fiyat: "35.000 TL"),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                children: [
+                  homecard5(
+                      title: "Apple İphone 13 Pro Max Black",
+                      description: "128 GB 12 Ay Garantili",
+                      imagesrc: "images/iphone13.png",
+                      fiyat: "35.000 TL"),
+                  homecard5(
+                      title: "Apple İphone 13 Pro Max Black",
+                      description: "128 GB 12 Ay Garantili",
+                      imagesrc: "images/iphone_13.png",
+                      fiyat: "35.000 TL"),
+                ],
+              ),
+            ],
+          ),
         ),
       );
     }
