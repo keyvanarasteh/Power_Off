@@ -44,7 +44,7 @@ class _register_pagesState extends State<register_pages> {
                       ],
                     )),
                     child: Padding(
-                      padding: const EdgeInsets.only(top: 60.0),
+                      padding: const EdgeInsets.only(top: 50.0),
                       child: Align(
                         alignment: Alignment.topCenter,
                         child: DefaultTextStyle(
@@ -66,7 +66,7 @@ class _register_pagesState extends State<register_pages> {
             alignment: Alignment(0, 0.1),
             child: Container(
               width: size.width * 0.9,
-              height: size.height * 0.73,
+              height: size.height * 0.76,
               child: Card(
                 elevation: 12,
                 child: Padding(

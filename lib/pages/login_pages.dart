@@ -35,7 +35,7 @@ class _registerState extends State<login_pages> {
                       ],
                     )),
                     child: Padding(
-                      padding: const EdgeInsets.only(top: 80.0),
+                      padding: const EdgeInsets.only(top: 70.0),
                       child: Align(
                         alignment: Alignment.topCenter,
                         child: DefaultTextStyle(
@@ -57,7 +57,7 @@ class _registerState extends State<login_pages> {
             alignment: Alignment(0, 0.1),
             child: Container(
               width: size.width * 0.9,
-              height: size.height * 0.66,
+              height: size.height * 0.69,
               child: Card(
                 elevation: 12,
                 child: Padding(
