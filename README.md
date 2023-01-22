@@ -1,16 +1,32 @@
-# app001
+# FLUTTER TRENDYOL
 
-A new Flutter project.
+## Trendyol E-Ticaret App Mobile
 
-## Getting Started
+**Emirhan İpek**
 
-This project is a starting point for a Flutter application.
+**Zeyneb Nur Aksu**
 
-A few resources to get you started if this is your first Flutter project:
+*Proje Kullanmak İçin Terminale Aşağıdaki Kodu Yazmanız Yeterli*
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+`git clone https://github.com/keyvanarasteh/Power_Off`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+**Desktop Desing**
+
+<img width="888" alt="Ekran Resmi 2023-01-20 01 06 53" src="https://user-images.githubusercontent.com/103415904/213938561-457ff30a-9ba4-4a6a-8b6d-9b0c1ef924bd.png">
+
+**Tablet Desing**
+
+![Ekran Resmi 2023-01-20 00 58 35](https://user-images.githubusercontent.com/103415904/213938621-a2f5af9f-8cc6-4068-ae44-5cc16c2279e4.png)
+
+**Mobile Desing**
+
+![Ekran Resmi 2023-01-20 00 58 01](https://user-images.githubusercontent.com/103415904/213938635-12e50a66-5fe3-4318-9ca1-0ecda5d84586.png)
+
+**Login Pages**
+
+![Ekran Resmi 2023-01-20 00 56 38](https://user-images.githubusercontent.com/103415904/213938644-24916c0b-da89-4a00-addd-71deac579521.png)
+
+**Register Pages**
+
+![Ekran Resmi 2023-01-20 00 56 12](https://user-images.githubusercontent.com/103415904/213938653-b18f65d1-7fab-4ad6-9326-a6d2c72ecdac.png)
